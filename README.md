@@ -376,7 +376,7 @@
 
     <div class="question">
       <span class="pilar">⚡ Concessionárias</span>
-      <label>6. Você tem dificuldade com alguma distribuidora (CEMIG, ENEL, CPFL, etc.)?</label>
+      <label>6. Você tem dificuldade com alguma distribuidora (COPEL, ELEKTRO, CPFL, etc.)?</label>
       <div class="options">
         <label><input type="radio" name="q6" value="0"> Nenhuma – domino todas</label>
         <label><input type="radio" name="q6" value="2"> Dificuldade com 1</label>
