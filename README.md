@@ -27,7 +27,7 @@
       padding: 30px 20px;
     }
     .container {
-      max-width: 1100px;   /* ⬅️ LARGURA AUMENTADA */
+      max-width: 880px;
       width: 100%;
       background: #ffffff;
       border-radius: 40px;
@@ -35,25 +35,13 @@
       box-shadow: 0 30px 70px rgba(0, 20, 40, 0.18);
       border: 1px solid rgba(255,255,255,0.5);
     }
-    /* Títulos padronizados com o mesmo estilo das perguntas */
-    .titulo-padrao {
-      font-size: 1rem;
-      font-weight: 700;
-      color: #0b253b;
-      margin-bottom: 8px;
-      display: flex;
-      align-items: center;
-      gap: 8px;
-    }
-    /* Substituímos o h1 grande por um título padronizado */
     h1 {
-      font-size: 1rem;
-      font-weight: 700;
-      color: #0b253b;
+      font-size: 2.2rem;
+      font-weight: 800;
+      color: #0a1e2f;
       display: flex;
       align-items: center;
-      gap: 8px;
-      margin-bottom: 8px;
+      gap: 12px;
     }
     .subhead {
       color: #1d4b6e;
@@ -251,13 +239,10 @@
       margin: 18px 0;
     }
     .solucao-box .titulo-solucao {
-      font-size: 1rem;
+      font-size: 1.3rem;
       font-weight: 700;
-      color: #0b253b;
+      color: #0b2b44;
       margin-bottom: 12px;
-      display: flex;
-      align-items: center;
-      gap: 8px;
     }
     .solucao-box ul {
       list-style: none;
@@ -281,15 +266,6 @@
       border-radius: 14px;
       border-left: 4px solid #1a6b8f;
       text-align: justify;
-    }
-    .solucao-box .experiencia p {
-      margin-bottom: 8px;
-    }
-    .solucao-box .experiencia p:last-child {
-      margin-bottom: 0;
-    }
-    .solucao-box .experiencia strong {
-      color: #0b2b44;
     }
 
     .action-row {
@@ -326,6 +302,7 @@
 
     @media (max-width: 650px) {
       .container { padding: 24px 18px; }
+      h1 { font-size: 1.6rem; flex-wrap: wrap; }
       .score-header { flex-direction: column; align-items: flex-start; gap: 12px; }
       .action-btn { min-width: 100%; }
     }
@@ -426,7 +403,7 @@
 
   <!-- RESULTADO -->
   <div class="result-area" id="resultado">
-    <div class="titulo-padrao">📊 Seu termômetro de gargalo</div>
+    <h2 style="font-size:1.5rem; margin-bottom:12px;">📊 Seu termômetro de gargalo</h2>
 
     <div class="score-header">
       <div>
@@ -466,13 +443,12 @@
       </ul>
 
       <div class="experiencia">
-        <p>Conte com a experiência de quem já atuou na engenharia de grandes empresas do setor e hoje exerce a função de <strong>Perito do TJPR</strong>.</p>
-        <p>Potencializo a capacidade da sua equipe justamente quando o volume de projetos, a complexidade técnica ou as exigências das concessionárias se tornam os principais gargalos da sua operação.</p>
+        Conte com a experiência de quem já atuou na engenharia de grandes empresas do setor e hoje exerce a função de Perito do TJPR. Potencializo a capacidade da sua equipe justamente quando o volume de projetos, a complexidade técnica ou as exigências das concessionárias se tornam os principais gargalos da sua operação.
       </div>
 
       <div class="action-row">
         <a class="action-btn whatsapp" id="whatsappBtn" href="#" target="_blank">
-          💬 Quero minha consultoria grátis no WhatsApp 🚀
+          💬 Quero minha consultoria grátis no WhatsApp
         </a>
       </div>
     </div>
