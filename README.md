@@ -443,7 +443,8 @@
       </ul>
 
       <div class="experiencia">
-        Conte com a experiência de quem já atuou na engenharia de grandes empresas do setor e hoje exerce a função de Perito do TJPR. Potencializo a capacidade da sua equipe justamente quando o volume de projetos, a complexidade técnica ou as exigências das concessionárias se tornam os principais gargalos da sua operação.
+        Conte com a experiência de quem já atuou na engenharia de grandes empresas do setor e hoje exerce a função de Perito do TJPR. 
+        Potencializo a capacidade da sua equipe justamente quando o volume de projetos, a complexidade técnica ou as exigências das concessionárias se tornam os principais gargalos da sua operação.
       </div>
 
       <div class="action-row">
