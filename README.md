@@ -395,7 +395,7 @@
 
   <!-- RESULTADO -->
   <div class="result-area" id="resultado">
-    <h2 style="font-size:1.5rem; margin-bottom:12px;">Seu termômetro de gargalo 📊 </h2>
+    <h2 style="font-size:1.5rem; margin-bottom:12px;">Termômetro de gargalo</h2>
 
     <div class="score-header">
       <div>
@@ -424,7 +424,7 @@
     </div>
 
     <div class="solucao-box">
-      <div class="titulo-solucao">🚀 A solução que resolve</div>
+      <div class="titulo-solucao">Solução que resolve</div>
 
       <ul>
         <li>Projeto + documentação + ART + homologação em fluxo integrado.</li>
