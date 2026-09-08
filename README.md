@@ -20,7 +20,7 @@
       padding: 30px 20px;
     }
     .container {
-      max-width: 8800px;
+      max-width: 9000px;
       width: 100%;
       background: #ffffff;
       border-radius: 40px;
