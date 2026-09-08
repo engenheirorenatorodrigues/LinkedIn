@@ -395,7 +395,7 @@
 
   <!-- RESULTADO -->
   <div class="result-area" id="resultado">
-    <h2 style="font-size:1.5rem; margin-bottom:12px;">📊 Seu termômetro de gargalo</h2>
+    <h2 style="font-size:1.5rem; margin-bottom:12px;">Seu termômetro de gargalo 📊 </h2>
 
     <div class="score-header">
       <div>
