@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8" />
@@ -19,7 +20,7 @@
       padding: 30px 20px;
     }
     .container {
-      max-width: 9000px;
+      max-width: 8800px;
       width: 100%;
       background: #ffffff;
       border-radius: 40px;
@@ -28,7 +29,7 @@
       border: 1px solid rgba(255,255,255,0.5);
     }
     h1 {
-      font-size: 1.4rem;
+      font-size: 1.1rem;
       font-weight: 2000;
       color: #0a1e2f;
       display: flex;
@@ -435,12 +436,12 @@
       </ul>
 
       <div class="experiencia">
-        Conte com a experiência de quem já atuou na engenharia de grandes empresas do setor e hoje exerce a função de Perito do TJPR. Potencializo a capacidade da sua equipe justamente quando o volume de projetos, a complexidade técnica ou as exigências das concessionárias se tornam os principais gargalos da sua operação.
+        Conte com a experiência de quem já atuou na engenharia de grandes empresas do setor e hoje exerce a função de Perito do TJPR.
       </div>
 
       <div class="action-row">
         <a class="action-btn whatsapp" id="whatsappBtn" href="#" target="_blank">
-          💬 Quero minha consultoria grátis no WhatsApp
+          Quero minha consultoria grátis no WhatsApp 💬
         </a>
       </div>
     </div>
