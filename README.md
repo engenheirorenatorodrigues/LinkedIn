@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8" />
@@ -19,7 +20,7 @@
       padding: 30px 20px;
     }
     .container {
-      max-width: 1000px;
+      max-width: 1500px;
       width: 100%;
       background: #ffffff;
       border-radius: 40px;
