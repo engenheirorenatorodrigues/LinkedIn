@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8" />
@@ -20,7 +19,7 @@
       padding: 30px 20px;
     }
     .container {
-      max-width: 880px;
+      max-width: 8800px;
       width: 100%;
       background: #ffffff;
       border-radius: 40px;
@@ -29,8 +28,8 @@
       border: 1px solid rgba(255,255,255,0.5);
     }
     h1 {
-      font-size: 2.2rem;
-      font-weight: 800;
+      font-size: 1.1rem;
+      font-weight: 2000;
       color: #0a1e2f;
       display: flex;
       align-items: center;
@@ -223,14 +222,6 @@
     .pain-box strong {
       color: #a04000;
     }
-    /* Garante que o texto da mensagem seja exibido com quebras de linha */
-    .pain-box .mensagem-dor {
-      display: block;
-      white-space: pre-line;
-      line-height: 1.6;
-      margin-top: 6px;
-      color: #1e2a3a;
-    }
 
     .solucao-box {
       background: #e3f0fa;
@@ -313,9 +304,9 @@
 
 <div class="container">
 
-  <h1>⚡ Diagnóstico Rápido</h1>
+  <h1>Diagnóstico Rápido</h1>
   <div class="subhead">
-    Descubra se sua engenharia está travando seu faturamento.
+    Descubra se sua engenharia está travando o faturamento.
   </div>
 
   <!-- FORMULÁRIO -->
@@ -404,7 +395,7 @@
 
   <!-- RESULTADO -->
   <div class="result-area" id="resultado">
-    <h2 style="font-size:1.5rem; margin-bottom:12px;">📊 Seu termômetro de gargalo</h2>
+    <h2 style="font-size:1.5rem; margin-bottom:12px;">Seu termômetro de gargalo 📊 </h2>
 
     <div class="score-header">
       <div>
@@ -429,11 +420,11 @@
 
     <div class="pain-box" id="painBox">
       <strong>⚠️ O que isso significa na prática:</strong><br />
-      <span class="mensagem-dor" id="mensagemDor">Carregando...</span>
+      <span id="mensagemDor">Carregando...</span>
     </div>
 
     <div class="solucao-box">
-      <div class="titulo-solucao">A solução:</div>
+      <div class="titulo-solucao">🚀 A solução que resolve</div>
 
       <ul>
         <li>Projeto + documentação + ART + homologação em fluxo integrado.</li>
@@ -449,7 +440,7 @@
 
       <div class="action-row">
         <a class="action-btn whatsapp" id="whatsappBtn" href="#" target="_blank">
-          💬 Quero minha consultoria grátis no WhatsApp
+          Quero minha consultoria grátis no WhatsApp 💬
         </a>
       </div>
     </div>
@@ -496,8 +487,7 @@
     badge.innerText = statusText;
     badge.className = 'status-badge ' + statusClass;
 
-    // Exibe a mensagem com quebras de linha (usando a classe .mensagem-dor com white-space: pre-line)
-    document.getElementById('mensagemDor').textContent = msg;
+    document.getElementById('mensagemDor').innerHTML = msg;
 
     const numero = '557791452853';
 
