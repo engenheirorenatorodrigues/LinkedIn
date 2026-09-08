@@ -20,7 +20,7 @@
       padding: 30px 20px;
     }
     .container {
-      max-width: 1500px;
+      max-width: 8800px;
       width: 100%;
       background: #ffffff;
       border-radius: 40px;
@@ -29,8 +29,8 @@
       border: 1px solid rgba(255,255,255,0.5);
     }
     h1 {
-      font-size: 2.2rem;
-      font-weight: 800;
+      font-size: 1.7rem;
+      font-weight: 2000;
       color: #0a1e2f;
       display: flex;
       align-items: center;
