@@ -2,14 +2,6 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  
-  <!-- Meta tags para compartilhamento no LinkedIn -->
-  <meta property="og:title" content="⚡ Diagnóstico Rápido – Engenharia Solar" />
-  <meta property="og:description" content="Descubra se sua engenharia está travando seu faturamento. Responda 7 perguntas e veja seu termômetro de gargalo." />
-  <meta property="og:image" content="https://via.placeholder.com/1200x630.png?text=Diagnóstico+Solar" />
-  <meta property="og:url" content="https://seuusuario.github.io/seu-repositorio/" />
-  <meta name="twitter:card" content="summary_large_image" />
-
   <title>⚡ Diagnóstico Rápido – Engenharia Solar</title>
   <style>
     * {
@@ -27,7 +19,7 @@
       padding: 30px 20px;
     }
     .container {
-      max-width: 880px;
+      max-width: 1000px;
       width: 100%;
       background: #ffffff;
       border-radius: 40px;
@@ -376,7 +368,7 @@
 
     <div class="question">
       <span class="pilar">⚡ Concessionárias</span>
-      <label>6. Você tem dificuldade com alguma distribuidora (COPEL, ELEKTRO, CPFL, etc.)?</label>
+      <label>6. Você tem dificuldade com alguma distribuidora (CEMIG, ENEL, CPFL, etc.)?</label>
       <div class="options">
         <label><input type="radio" name="q6" value="0"> Nenhuma – domino todas</label>
         <label><input type="radio" name="q6" value="2"> Dificuldade com 1</label>
@@ -443,8 +435,7 @@
       </ul>
 
       <div class="experiencia">
-        Conte com a experiência de quem já atuou na engenharia de grandes empresas do setor e hoje exerce a função de Perito do TJPR. 
-        Potencializo a capacidade da sua equipe justamente quando o volume de projetos, a complexidade técnica ou as exigências das concessionárias se tornam os principais gargalos da sua operação.
+        Conte com a experiência de quem já atuou na engenharia de grandes empresas do setor e hoje exerce a função de Perito do TJPR. Potencializo a capacidade da sua equipe justamente quando o volume de projetos, a complexidade técnica ou as exigências das concessionárias se tornam os principais gargalos da sua operação.
       </div>
 
       <div class="action-row">
@@ -498,7 +489,6 @@
 
     document.getElementById('mensagemDor').innerHTML = msg;
 
-    // NÚMERO DO WHATSAPP
     const numero = '557791452853';
 
     const texto = 
