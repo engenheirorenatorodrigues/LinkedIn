@@ -304,7 +304,7 @@
 
 <div class="container">
 
-  <h1> Diagnóstico Rápido ⚡</h1>
+  <h1>Diagnóstico Rápido⚡</h1>
   <div class="subhead">
     Descubra se sua engenharia está travando seu faturamento.
   </div>
