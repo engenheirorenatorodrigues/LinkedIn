@@ -433,7 +433,7 @@
     </div>
 
     <div class="solucao-box">
-      <div class="titulo-solucao">🚀 A solução que resolve</div>
+      <div class="titulo-solucao">A solução:</div>
 
       <ul>
         <li>Projeto + documentação + ART + homologação em fluxo integrado.</li>
