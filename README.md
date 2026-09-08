@@ -29,7 +29,7 @@
       border: 1px solid rgba(255,255,255,0.5);
     }
     h1 {
-      font-size: 1.7rem;
+      font-size: 1.4rem;
       font-weight: 2000;
       color: #0a1e2f;
       display: flex;
