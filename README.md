@@ -306,7 +306,7 @@
 
   <h1>Diagnóstico Rápido</h1>
   <div class="subhead">
-    Descubra se sua engenharia está travando seu faturamento.
+    Descubra se a sua engenharia está travando o seu faturamento.
   </div>
 
   <!-- FORMULÁRIO -->
